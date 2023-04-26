@@ -1,0 +1,141 @@
+.portifolio{
+    /* position:absolute; */
+    text-align: center;
+}
+
+.port h3{
+    font-family: 'Circular Std';
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.006em;
+    color: #7BC0E3;
+
+}
+
+.port h1{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #292525;
+    margin-top: -0.5rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding-top: 1rem;
+    gap: 2rem;
+    
+}
+
+.btn button{
+    width: 290.08px;
+    height: 69.51px;
+    border: 2px solid #7BC0E3;
+    border-radius: 1000px;
+    font-family: 'Circular Std';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #7BC0E3;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    /* margin-top: 1.5rem; */
+    
+}
+
+.btn h3{
+    font-size: 20px;
+}
+
+.circle{
+    margin-left: -69.5rem;
+}
+
+.circle>img{
+    width: 15%;
+}
+
+.placeholder{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -26rem;
+    justify-content: center;
+    /* text-align: center; */
+    padding: 10.5rem;
+    gap: 1.5rem;
+   
+}
+
+.ph>img{
+    width: 410.01px;
+    height: 297.09px;
+}
+
+.ph p{
+    width: 410.01px;
+    height: 111.13px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 170.2%;
+    color: #000000;
+    opacity: 0.9;
+    text-align: left;
+}
+
+.arrow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -32rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.background{
+    width: 1512px;
+    height: 437.33px;
+    background-color: #60E1CB;
+    margin-top: -5.5rem;
+}
+
+.btn2 button{
+    width: 211.09px;
+    height: 74.67px;
+    background: #292525;
+    box-shadow: 0px 46px 52px rgba(96, 225, 203, 0.56);
+    border-radius: 1000px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -5rem;
+    border: none;
+}
+
+.circle2>img{
+    width: 15%;
+}
+
+.circle2{
+    margin-top: -20rem;
+    margin-left: -90rem;
+}
+
+.circle3>img{
+   width: 27%;
+   margin-left: 69rem;
+}
+
+.circle3{
+    margin-top: -16rem;
+    /* margin-left: 65rem; */
+}

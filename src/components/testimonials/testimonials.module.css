@@ -1,0 +1,132 @@
+.container{
+    text-align: center;
+}
+
+.testimonials{
+    margin-left: 10rem;
+}
+
+.testimonials p{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.006em;
+    color: #7BC0E3;
+    margin-top: 7rem;
+
+}
+
+.testimonials h2{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: center;
+    color: #292525;
+    margin-top: -1rem;
+
+}
+
+.card{
+    width: 825.46px;
+    height: 344.35px;
+    background: #FDFDFF;
+    box-shadow: 0px 97px 90px rgba(7, 0, 59, 0.12);
+    border-radius: 12px;
+    margin-left: 20rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: -8rem;
+}
+
+.text{
+    text-align: center;
+}
+
+.text h3{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: #000000;
+    padding-top: 5rem;
+}
+
+.stars>img{
+    width: 207.29px;
+    height: 42.23px;
+    margin-top: -2rem;
+    margin-left: 20rem;
+}
+
+.text p{
+    width: 801.45px;
+    height: 95.95px;
+    font-family: 'Circular Std';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 177.2%;
+    /* text-align: center; */
+    justify-items: center;
+    color: #292525;
+
+}
+
+.image{
+    margin-left: 21rem;
+}
+
+.image h4{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #292525;
+    margin-top: 1rem;
+}
+
+.image p{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #60E1CB;
+    mix-blend-mode: normal;
+    margin-top: -1.5rem;
+}
+
+.image>img{
+    margin-top: 4rem;
+}
+
+.circleCards>img{
+    width: 20%;
+    margin-top: -2rem;
+    margin-left: -2rem;
+    /* padding-top: 5rem; */
+}
+
+.slider{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.container{
+    /* width: 90%; */
+    padding: 2rem;
+}
