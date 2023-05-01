@@ -1,0 +1,136 @@
+.blog{
+    display: flex;
+    justify-content: space-between;
+    width: 1513px;
+    height: 786px;
+    background: #E9FBF8;
+    padding-top: 10rem;
+}
+
+.news{
+    padding-left: 10rem;
+}
+
+.smallText{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.006em;
+    color: #7BC0E3;
+}
+
+.bigText h2{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #292525;
+    margin-top: -0.5rem;
+}
+
+.bigText p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.7;
+    width: 450px;
+    margin-top: -1rem;
+}
+
+.btn button{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #7BC0E3;
+    border: none;
+    width: 194.67px;
+    height: 65.22px;
+    border: 1px solid #7BC0E3;
+    filter: drop-shadow(0px 24px 32px rgba(82, 35, 0, 0.12));
+    border-radius: 1000px;
+    background: #E9FBF8;
+}
+
+.slider{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card{
+    width: 240px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 36px 39px rgba(7, 0, 59, 0.04);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.why h3{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #292525;
+    width: 236.29px;
+}
+
+.why p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    color: #292525;
+    opacity: 0.5;
+    width: 238px;
+    margin-bottom: 1.5rem;
+}
+
+.more p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #7BC0E3;
+
+}
+
+.more>img{
+    margin-top: -2.35rem;
+    margin-left: 5rem;
+}
+
+.circle1 >img{
+    width: 374.58px;
+    margin-top: 40rem;
+    margin-left: -80rem;
+}
+
+.circle2>img{
+    width: 374.58px;
+    margin-top: 25rem;
+    /* margin-left: rem; */
+}

@@ -1,5 +1,6 @@
 .container{
     text-align: center;
+    padding: 2rem;
 }
 
 .testimonials{
@@ -124,9 +125,4 @@
     display: flex;
     justify-content: space-between;
     gap: 40px;
-}
-
-.container{
-    /* width: 90%; */
-    padding: 2rem;
 }

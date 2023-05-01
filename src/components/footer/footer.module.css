@@ -1,0 +1,97 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-left: 13rem;
+    padding-right: 13rem;
+    background: url(../../assets/bg_interested.png);
+    /* width: 1920px; */
+    height: 400px;
+}
+
+.left h1{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.left p{
+    width: 324px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #292525;
+    mix-blend-mode: normal;
+}
+
+.copyright h6{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 20px;
+    color: #292525;
+    mix-blend-mode: normal;
+    margin-top: 10rem;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.work h2{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #292525;
+}
+
+.work2 p{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #292525;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.work2>img{
+    margin-top: 1.5rem;
+}
+
+br{
+    width: 1420px;
+    height: 0.9px;
+    background: #FFFFFF;
+    opacity: 0.6;
+}
+
+.socials{
+    display: flex;
+    margin-top: 18rem;
+    margin-left: -10rem;
+    /* justify-content: space-between; */
+    gap: 2rem;
+
+}
+
+.socialsh4{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #292525;
+}

@@ -1,6 +1,7 @@
 .portifolio{
     /* position:absolute; */
     text-align: center;
+    padding-top: 3rem;
 }
 
 .port h3{
@@ -10,6 +11,7 @@
     text-align: center;
     letter-spacing: 0.006em;
     color: #7BC0E3;
+    /* margin-top: 3rem; */
 
 }
 
@@ -28,6 +30,7 @@
     justify-content: center;
     padding-top: 1rem;
     gap: 2rem;
+    /* margin-top: 3rem; */
     
 }
 
@@ -63,7 +66,7 @@
 .placeholder{
     display: flex;
     justify-content: space-between;
-    margin-top: -26rem;
+    margin-top: -28rem;
     justify-content: center;
     /* text-align: center; */
     padding: 10.5rem;
