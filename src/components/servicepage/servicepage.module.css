@@ -1,0 +1,155 @@
+.bg{
+    width: 1400px;
+    height: 1208.91px;
+    background: #E9FBF8;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: -6rem;
+    margin-left: 3.5rem;
+    position: absolute;
+    
+}
+
+.services{
+    width: 812px;
+    height: 1272.69px;
+    background: #FFFFFF;
+    margin-bottom: -8rem;
+}
+
+.our{
+    margin-bottom: -9rem;
+}
+
+.our h1{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: center;
+    color: #292525;
+    padding-top: 6rem;
+}
+
+.our p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 152.2%;
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+    width: 700px;
+    height: 54px;
+    margin: auto;
+    margin-top: -1rem;
+}
+
+.greenLine{
+    height: 7px;
+    width: 359px;
+    left: 1169.5px;
+    top: 306.913818359375px;
+    border-top-right-radius: 12px ;
+    border-top-left-radius: 12px;
+    background: #60E1CB;
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    padding: 11rem;
+    text-align: left;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-left: -3rem;
+    
+    
+
+}
+
+.card{
+    justify-items: center;
+    height: 381px;
+    width: 359px;
+    border-radius: 12px;
+    background: #FDFDFF;
+    box-shadow: 0px 97px 90px rgba(7, 0, 59, 0.12);  
+}
+
+.web{
+    padding-left: 2rem;
+}
+
+.image1>img{
+    padding-top: 4rem;
+    margin-left: -0.7rem;
+}
+
+.image2>img{
+    margin-top: -2.3rem;
+    position: absolute;
+    margin-left: -0rem;
+}
+
+.text h3{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #292525;
+    margin-top: 2.5rem;
+}
+
+.text p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    opacity: 0.7;
+    height: 73px;
+    width: 249px;
+    margin-top: -0.5rem;
+}
+
+.text h5{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #7BC0E3;
+    margin-top: 2rem;
+}
+
+.more{
+    display: flex;
+    gap: 8px;
+    
+}
+
+.more>img{
+    height: 7.885986328125px;
+    width: 24.73614501953125px;
+    margin-top: 2.35rem;
+
+}
+
+.serviceCircle{
+    padding-top: 29rem;
+    padding-left: 50rem;
+    position: absolute;
+    /* opacity: 0.1; */
+}
+
+.serviceCircle>img{
+    width: 70%;
+    margin-top: 6rem;
+    margin-left: 8rem;
+}

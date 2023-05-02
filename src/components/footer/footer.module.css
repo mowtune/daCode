@@ -71,12 +71,12 @@
     margin-top: 1.5rem;
 }
 
-br{
+/* br{
     width: 1420px;
     height: 0.9px;
     background: #FFFFFF;
     opacity: 0.6;
-}
+} */
 
 .socials{
     display: flex;
