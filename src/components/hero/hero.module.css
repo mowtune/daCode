@@ -55,6 +55,7 @@
 .btn{
     display: flex;
     gap: 20px;
+    cursor: pointer; 
 }
 
 .btn1 button{
@@ -71,6 +72,7 @@
     letter-spacing: 0.005em;
     color: #FFFFFF;
     border: none;
+    cursor: pointer; 
 }
 
 .btn2 button{
@@ -88,6 +90,7 @@
     border-radius: 1000px;
     background: #FFFFFF;
     border-color:grey;
+    cursor: pointer; 
 }
 
 .image>img{
@@ -109,6 +112,5 @@
     margin-left: -4rem;
     width: 601px;
     height: 601px;
-    /* position: absolute; */
-    /* transform: rotate(120deg); */
+    
 }

@@ -63,7 +63,7 @@ export default class Responsive extends Component {
         </div>
 
         <div className={classes.carousel}>
-            <Slider {...settings}className={classes.slider}>
+            <Slider {...settings} className={classes.slide}>
             <div className={classes.cards}>
                 <div className={classes.card}>
                     <div className={classes.why}>

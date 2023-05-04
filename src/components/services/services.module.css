@@ -3,9 +3,8 @@
     height: 1272.69px;
     background: #E9FBF8;
     border-radius: 0px;
-    /* position: absolute; */
+    position: absolute;
     margin-top: -17rem;
-    /* transform: matrix(1, 0, 0, -1, 0, 0); */
 }
 
 .our{
@@ -56,12 +55,11 @@
     text-align: left;
     gap: 2rem;
     margin-top: 1rem;
-   
-
+    position: absolute;
 }
 
 .card{
-    justify-items: center;
+    /* justify-items: center; */
     height: 381px;
     width: 359px;
     border-radius: 12px;
@@ -121,6 +119,7 @@
 .more{
     display: flex;
     gap: 8px;
+    cursor: pointer; 
     
 }
 
@@ -132,8 +131,6 @@
 }
 
 .serviceCircle{
-    padding-top: 29rem;
-    padding-left: 55rem;
-    position: absolute;
-    /* opacity: 0.1; */
+   margin-left: 66rem;
+   margin-top: 40rem;
 }

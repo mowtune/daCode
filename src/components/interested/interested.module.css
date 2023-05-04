@@ -3,6 +3,7 @@
     text-align: center;
     width: 1513px;
     height: 520px;
+    position: absolute;
 }
 
 .text h2{
@@ -38,5 +39,7 @@
     text-align: center;
     color: #FFFFFF;
     margin-top: 2rem;
+    cursor: pointer; 
+    border: none;
 
 }

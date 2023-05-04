@@ -23,7 +23,8 @@
     color: #60E1CB;
     margin-left: 1rem;
     margin-right: 1.5rem;
-    text-decoration: none;   
+    text-decoration: none;  
+    cursor: pointer; 
 }
 
 .navbar li button{
@@ -39,4 +40,5 @@
     height: 50px;
     color: #FFFFFF;
     margin-top: -1rem;
+    cursor: pointer; 
 }

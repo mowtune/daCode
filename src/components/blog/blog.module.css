@@ -58,19 +58,30 @@
     background: #E9FBF8;
 }
 
-.slider{
+.slide{
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    width: 1092px;
+    height: 364px;
+    /* gap: 40px; */
 
 }
 
-.carousel{
+/* .carousel{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-}
+} */
+
+/* .cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 11rem;
+    text-align: left;
+    gap: 2rem;
+    margin-top: 1rem;
+} */
 
 .card{
     width: 240px;
@@ -132,5 +143,5 @@
 .circle2>img{
     width: 374.58px;
     margin-top: 25rem;
-    /* margin-left: rem; */
+    margin-left: -40rem;
 }

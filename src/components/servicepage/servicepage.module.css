@@ -66,8 +66,7 @@
     gap: 2rem;
     margin-top: 1rem;
     margin-left: -3rem;
-    
-    
+    position: absolute;
 
 }
 
@@ -77,7 +76,7 @@
     width: 359px;
     border-radius: 12px;
     background: #FDFDFF;
-    box-shadow: 0px 97px 90px rgba(7, 0, 59, 0.12);  
+    box-shadow: 0px 97px 90px rgba(7, 0, 59, 0.12); 
 }
 
 .web{
@@ -130,8 +129,8 @@
 
 .more{
     display: flex;
-    gap: 8px;
-    
+    gap: 8px; 
+    cursor: pointer;   
 }
 
 .more>img{
@@ -141,15 +140,15 @@
 
 }
 
-.serviceCircle{
+/* .serviceCircle{
     padding-top: 29rem;
     padding-left: 50rem;
     position: absolute;
-    /* opacity: 0.1; */
-}
+} */
 
-.serviceCircle>img{
-    width: 70%;
-    margin-top: 6rem;
-    margin-left: 8rem;
+.serviceCircle{
+    width: 50%;
+    margin-top: 18rem;
+    margin-left: 20rem;
+    /* position: absolute; */
 }

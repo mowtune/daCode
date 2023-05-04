@@ -141,12 +141,13 @@ const services = () => {
                 </div>
                 </div>
             </div>
+
+        </div>
+                
+        </div>
                 <div className={classes.serviceCircle}>
                     <img src={ServiceCircle} alt='servicecircle' />
                 </div>
-
-        </div>
-        </div>
 
     </div>
   )

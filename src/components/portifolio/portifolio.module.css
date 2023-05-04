@@ -2,6 +2,7 @@
     /* position:absolute; */
     text-align: center;
     padding-top: 3rem;
+    margin-top: 63rem;
 }
 
 .port h3{
@@ -53,6 +54,7 @@
 
 .btn h3{
     font-size: 20px;
+    cursor: pointer; 
 }
 
 .circle{
@@ -98,6 +100,7 @@
     margin-top: -32rem;
     padding-left: 3.5rem;
     padding-right: 3.5rem;
+    cursor: pointer;
 }
 
 .background{
@@ -105,6 +108,10 @@
     height: 437.33px;
     background-color: #60E1CB;
     margin-top: -5.5rem;
+}
+
+.btn2{
+    cursor: pointer;
 }
 
 .btn2 button{
@@ -122,6 +129,7 @@
     color: #FFFFFF;
     margin-top: -5rem;
     border: none;
+    /* cursor: pointer;  */
 }
 
 .circle2>img{
