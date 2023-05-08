@@ -63,24 +63,27 @@ export default class Blog extends Component {
 
         <div className={classes.carousel}>
           <div className={classes.cards}>
-            {/* <Slider {...settings}> */}
+            <Slider {...settings}>
               {blogs.map((blog, index) => (
                 <div key={index} className={classes.card}>
                   <div className={classes.why}>
                     <h3>{blog.title}</h3>
                     <p>{blog.content}</p>
+                    <div className={classes.moreArrow}>
                     <div className={classes.more}>
                       <p>Read More</p>
                     </div>
                     <div className={classes.arrow}>
                      <img src={Arrow} alt='arrow' /> 
                     </div>
+                    </div>
+                    
                       
                     
                   </div>
                 </div>
               ))}
-            {/* </Slider> */}
+            </Slider>
           </div>            
         </div>
 

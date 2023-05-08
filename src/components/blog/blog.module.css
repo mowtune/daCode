@@ -58,17 +58,17 @@
     background: #E9FBF8;
 }
 
-/* .slider{
+.slider{
     display: flex;
     justify-content: space-between;
     width: 1092px;
     height: 364px;
-    /* gap: 40px; */
+    
 
-/* } */
+}
 
 .carousel{
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     /* width: 100%; */
@@ -132,9 +132,14 @@
 
 }
 
+.moreArrow{
+    display: flex;
+    justify-content: space-between;
+}
+
 .arrow>img{
-    margin-top: -15rem;
-    margin-left: 6rem;
+    margin-bottom: -1rem;
+    margin-left: -10rem;
 }
 
 .circle1 >img{

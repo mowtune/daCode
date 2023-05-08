@@ -62,7 +62,8 @@ export default class testimonials extends Component {
             centerPadding: "60px",
             slidesToShow: 1,
             slidesToScroll: 1,
-            speed: 8000,
+            speed: 6000,
+            autoplay:true,
             pauseOnDotsHover: true,
             appendDots: (dots) => (
                 <div className={classes.image}>

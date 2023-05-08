@@ -45,10 +45,7 @@
     border-radius: 12px;
     text-align: center;
     margin: auto;
-    /* padding-right: 2rem; */
     margin-top:-6rem;
-    display: flex;
-    justify-content: space-between;
 }
 
 .text{
@@ -95,17 +92,13 @@
 
 .customPaging{
     margin-bottom: 7rem;
-    /* display: flex; */
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 40rem;
 }
 
 .image{
-    gap: 10rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    /* gap: 10rem; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
 }
 
 .name h4{
