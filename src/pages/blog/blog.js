@@ -25,10 +25,11 @@ const blog = () => {
             <div className={classes.news}>
                 <h2>News & Articles</h2>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.</p>
-                <div className='form'>
+                <div className={classes.form}>
                     <span className={classes.outlineSearch}>
-                        <AiOutlineSearch />
                         <input type="text" placeholder="Search blog..." />
+                        <div className={classes.search}><AiOutlineSearch /></div>
+
                     </span>                     
                 </div>
             </div>

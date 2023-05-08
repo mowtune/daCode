@@ -70,19 +70,18 @@
     justify-content: space-between;
     margin-top: -28rem;
     justify-content: center;
-    /* text-align: center; */
-    padding: 10.5rem;
-    gap: 1.5rem;
+    padding: 12.5rem;
+    gap: 2rem;
    
 }
 
 .ph>img{
-    width: 410.01px;
+    width: 380.01px;
     height: 297.09px;
 }
 
 .ph p{
-    width: 410.01px;
+    width: 380.01px;
     height: 111.13px;
     font-family: 'Circular Std';
     font-style: normal;
