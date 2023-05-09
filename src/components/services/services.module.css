@@ -69,6 +69,12 @@
     
 }
 
+.card:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    background:#f4faf9;
+}
+
 .web{
     padding-left: 2rem;
 }

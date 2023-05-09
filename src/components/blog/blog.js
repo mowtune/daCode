@@ -12,7 +12,7 @@ export default class Blog extends Component {
       dots: false,
       infinite: true,
       slidesToShow: 2,
-      slidesToScroll: 3,
+      slidesToScroll: 1,
       speed: 4000,
       autoplaySpeed: 5000,
       autoplay: true,

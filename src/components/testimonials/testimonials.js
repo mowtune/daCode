@@ -8,51 +8,9 @@ import Pl1 from '../../assets/pL1.png';
 import Pl2 from '../../assets/pL2.png';
 
 
-export default class testimonials extends Component {
+export default class Testimonials extends Component {
 
     render() {
-        const testimonials = [
-            {
-                id: 1,
-                name: "Motun Haverinen",
-                portfolio: "Owner, Ikirakenne Ltd",
-                image: Pl2,
-                stars: Stars,
-                quote: "We tried several agencies before we found daCode. Has been a pleasure to work with and will soon start the next project with our second brand."
-            },
-            {
-                id: 2,
-                name: "Sosami Haverinen",
-                portfolio: "Owner, Ikirakenne Ltd",
-                image: Pl1,
-                stars: Stars,
-                quote: "We tried several agencies before we found daCode. Has been a pleasure to work with and will soon start the next project with our second brand."
-            },
-            {
-                id: 3,
-                name: "Paulus Haverinen",
-                portfolio: "Owner, Ikirakenne Ltd",
-                image: Paulus,
-                stars: Stars,
-                quote: "We tried several agencies before we found daCode. Has been a pleasure to work with and will soon start the next project with our second brand."
-            },
-            {
-                id: 4,
-                name: "Femi Haver",
-                portfolio: "Owner, Ikirakenne Ltd",
-                image: Pl1,
-                stars: Stars,
-                quote: "We tried several agencies before we found daCode. Has been a pleasure to work with and will soon start the next project with our second brand."
-            },
-            {
-                id: 5,
-                name: "David Rinen",
-                portfolio: "Owner, Ikirakenne Ltd",
-                image: Pl2,
-                stars: Stars,
-                quote: "We tried several agencies before we found daCode. Has been a pleasure to work with and will soon start the next project with our second brand."
-            },
-        ];
 
         const settings = {
             dots: true,
@@ -65,14 +23,6 @@ export default class testimonials extends Component {
             speed: 6000,
             autoplay:true,
             pauseOnDotsHover: true,
-            appendDots: (dots) => (
-                <div className={classes.image}>
-                    {dots}
-                </div>
-            ),
-            customPaging: (i) => (
-                <img className={classes.customPaging} src={testimonials[i].image} alt={testimonials[i].name} />
-            )
     };
 
     return (
@@ -86,34 +36,97 @@ export default class testimonials extends Component {
                         <img src={Circlecards} alt='circlecards' />
             </div>
                 
-                <div className={classes.cards}>
-                    <Slider {...settings}>
-                        {testimonials.map((testimonial) =>
-                        <div key={testimonial.id}>
-                            <div className={classes.card}>
+                
+                    <Slider {...settings} className={classes.cards}>
+                        <div className={classes.card}>
+                            <div className={classes.innercard}>
                                 <div className={classes.text}>
                                     <h3>5.0</h3>
                                     <div className={classes.stars}>
-                                        <img src={testimonial.stars} alt={testimonial.stars} />
+                                        <img src={Stars} alt='stars' />
+                                        <p>We tried several agencies before we found daCode. Has been a pleasure to work with and will soon start the next project with our second brand.</p>
                                     </div>
-                                    <p>
-                                        {testimonial.quote}
-                                    </p>
+                                </div>
 
-                                    
+                            </div>  
+                            <div className={classes.name}>
+                                <img src={Pl2} alt='paulus' />
+                                <h4>Paulus Haverinen</h4>
+                                <p>Owner, Ikirakenne Ltd</p>
+                            </div>       
+                        </div>
+                            
+
+                        <div className={classes.card}>
+                            <div className={classes.innercard}>
+                                <div className={classes.text}>
+                                    <h3>5.0</h3>
+                                    <div className={classes.stars}>
+                                        <img src={Stars} alt='stars' />
+                                        <p>We tried several agencies before we found daCode. Has been a pleasure to work with and will soon start the next project with our second brand.</p>
+                                    </div>
+                                </div>
+                            </div>  
+                                <div className={classes.name}>
+                                    <img src={Pl1} alt='paulus' />
+                                        <h4>Paulus Haverinen</h4>
+                                    <p>Owner, Ikirakenne Ltd</p>
+                                </div>       
+                        </div>
+
+                        <div className={classes.card}>
+                            <div className={classes.innercard}>
+                                <div className={classes.text}>
+                                    <h3>5.0</h3>
+                                    <div className={classes.stars}>
+                                        <img src={Stars} alt='stars' />
+                                        <p>We tried several agencies before we found daCode. Has been a pleasure to work with and will soon start the next project with our second brand.</p>
+                                    </div>
+                                </div>
+                            </div> 
+                                <div className={classes.name}>
+                                    <img src={Paulus} alt='paulus' />
+                                        <h4>Paulus Haverinen</h4>
+                                    <p>Owner, Ikirakenne Ltd</p>
+                                </div>        
+                        </div>
+
+                        <div className={classes.card}>
+                            <div className={classes.innercard}>
+                                <div className={classes.text}>
+                                    <h3>5.0</h3>
+                                    <div className={classes.stars}>
+                                        <img src={Stars} alt='stars' />
+                                        <p>We tried several agencies before we found daCode. Has been a pleasure to work with and will soon start the next project with our second brand.</p>
+                                    </div>
                                 </div>
                             </div>
-
-                                    <div className={classes.name}>
-                                        <h4>{testimonial.name}</h4>
-                                        <p>{testimonial.portfolio}</p>
-                                    </div>
+                                <div className={classes.name}>
+                                    <img src={Pl1} alt='paulus' />
+                                        <h4>Paulus Haverinen</h4>
+                                    <p>Owner, Ikirakenne Ltd</p>
+                                </div>         
                         </div>
-                        )}
+
+                        <div className={classes.card}>
+                            <div className={classes.innercard}>
+                                <div className={classes.text}>
+                                    <h3>5.0</h3>
+                                    <div className={classes.stars}>
+                                        <img src={Stars} alt='stars' />
+                                        <p>We tried several agencies before we found daCode. Has been a pleasure to work with and will soon start the next project with our second brand.</p>
+                                    </div>
+                                </div>
+                            </div> 
+                                <div className={classes.name}>
+                                    <img src={Pl2} alt='paulus' />
+                                        <h4>Paulus Haverinen</h4>
+                                    <p>Owner, Ikirakenne Ltd</p>
+                                </div>       
+                        </div>
+                       
                     </Slider>
                     </div>                     
-            </div>
-        
       );
     }
 }

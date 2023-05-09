@@ -9,16 +9,12 @@
 
 }
 
-.text{
-    margin-left: 9rem;
-
-}
-
 .textImage{
     display: flex;
     justify-content: space-between;
-    /* width: 80%; */
-}
+    padding-left: 9rem;
+    padding-right: 2rem;
+}   
 
 .bigText{
     font-family: 'Circular Std';
@@ -75,6 +71,13 @@
     cursor: pointer; 
 }
 
+.btn1 button:hover{
+    background: #FFFFFF;
+    color: #60E1CB;
+    transform: scale(1.1);
+    border: solid 2px ;
+}
+
 .btn2 button{
     padding: 14px 24px;
     width: 188px;
@@ -89,28 +92,40 @@
     color: #60E1CB;
     border-radius: 1000px;
     background: #FFFFFF;
+    /* border: none; */
     border-color:grey;
+    border: solid 1px;
     cursor: pointer; 
 }
 
+.btn2 button:hover{
+    color: #FFFFFF;
+    border-color: gray;
+    transform:scale(1.1);
+    border: solid 2px ;
+    background: #60E1CB;
+}
+
+
 .image>img{
     /* height: 902.26025390625px; */
-    width: 900.013671875px;
-    margin-left: -28rem;
+    width: 700px;
+    margin-top: 5rem;
+    margin-left: -26rem;
     position: absolute;
 
 }
 
 .bg>img{
     margin-top: 10rem;
-    margin-left: 10rem;
+    margin-left: 1rem;
     /* position: absolute; */
 }
 
 .circle>img{
-    margin-top: -4rem;
+    margin-top: -3rem;
     margin-left: -4rem;
-    width: 601px;
-    height: 601px;
+    width: 500px;
+    height: 500px;
     
 }

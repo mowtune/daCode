@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: 1515px;
-    height: 686px;
+    height: 600px;
     background: #E9FBF8;
     padding-top: 10rem;
 }
@@ -10,7 +10,7 @@
 .news{
     padding-left: 10rem;
     width: 542.87px;
-height: 356.78px;
+    height: 356.78px;
 }
 
 .smallText{
@@ -58,6 +58,13 @@ height: 356.78px;
     filter: drop-shadow(0px 24px 32px rgba(82, 35, 0, 0.12));
     border-radius: 1000px;
     background: #E9FBF8;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    color: #E9FBF8;
+    background: #7BC0E3;
+    transform: scale(1.1);
 }
 
 .cards{
@@ -75,7 +82,7 @@ height: 356.78px;
     height: 330px;
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
-    padding: 1rem;
+    /* padding: 1rem; */
     padding-left: 2rem;
     background: #FFFFFF;
 }
@@ -111,6 +118,7 @@ height: 356.78px;
     font-size: 16px;
     line-height: 18px;
     color: #7BC0E3;
+    cursor: pointer;
 
 }
 
@@ -126,12 +134,12 @@ height: 356.78px;
 
 .circle1 >img{
     width: 374.58px;
-    margin-top: 40rem;
-    margin-left: -80rem;
+    margin-top: 26rem;
+    margin-left: -105rem;
 }
 
 .circle2>img{
     width: 374px;
-    margin-top: 25rem;
+    margin-top: 15rem;
     margin-left: -30rem;
 }

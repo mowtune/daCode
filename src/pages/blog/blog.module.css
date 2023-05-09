@@ -153,4 +153,13 @@ input{
     border: none;
     margin-left: 5rem;
     margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    color: #60E1CB;
+    background: #FFFFFF;
+    border-color: #60E1CB;
+    border: solid 2px;
+    transform: scale(1.1);
 }

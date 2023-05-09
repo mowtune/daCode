@@ -51,6 +51,12 @@
     border-radius: 12px;
 }
 
+.card:hover{
+    background: #f2fcf9;
+    /* color: #FDFDFF; */
+    transform: scale(1.1);
+}
+
 .card h4{
     font-family: 'Circular Std';
     font-style: normal;
@@ -96,7 +102,18 @@
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
-    border: none;
+    border-color: #60E1CB;
+    border: solid 2px;
+    cursor: pointer;
+    /* border: none; */
+}
+
+.btn button:hover{
+    color: #60E1CB;
+    background: #FFFFFF;
+    border-color: #60E1CB;
+    border: solid 2px;
+    transform: scale(1.1);
 }
 
 .team2{

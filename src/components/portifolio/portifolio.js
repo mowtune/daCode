@@ -4,69 +4,30 @@ import Circle from '../../assets/services_circle.png';
 import Placeholder from '../../assets/place _holder.png';
 import Placeholder2 from '../../assets/place _holder2.png';
 import Placeholder3 from '../../assets/place_holder3.png';
-import Arrowleft from '../../assets/arrow_left.png';
-import Arrowright from '../../assets/arrow_right.png';
+// import Arrowleft from '../../assets/arrow_left.png';
+// import Arrowright from '../../assets/arrow_right.png';
 import Circle2 from '../../assets/services_circle.png';
 import Circle3 from '../../assets/services_circle.png';
 import Slider from 'react-slick';
 
-// export default portifolio
-export default class portifolio extends Component {
+
+export default class Portifolio extends Component {
   render() {
 
-    function PrevArrow(props) {
-      const { 
-        className, 
-        style, 
-        onClick 
-      } = props;
-      return (
-        <div
-          className={ className }
-          style={{ ...style, display: "flex",
-            justifyContent: "space-between",
-            marginTop: "-32rem",
-            paddingLeft: "3.5rem",
-            paddingRight: "3.5rem",
-            cursor: "pointer",
-            backgroundImage: `url(${Arrowleft})`
-          }}
-          onClick={onClick}
-          />
-      );
-    }
+    
 
-    function NextArrow(props) {
-      const { className, style, onClick } = props;
-      return (
-        <div
-          className={{className}}
-          style={{ ...style, display: "flex",
-            justifyContent: "space-between",
-            marginTop: "-32rem",
-            paddingLeft: "3.5rem",
-            paddingRight: "3.5rem",
-            cursor: "pointer",
-            background: `url(${Arrowright})`
-          }}
-          onClick={onClick}
-          />
-      );
-    }
-
-     var settings = {
+     const settings = {
       dots: true,
-      infinite: false,
-      speed: 500,
+      infinite: true,
       slidesToShow: 3,
-      slidesToScroll: 3,
-      initialSlide: 0,
-      prevArrow: <PrevArrow/>,
-      nextArrow: <NextArrow/>,
+      slidesToScroll: 1,
+      speed: 4000,
+      autoplaySpeed: 5000,
+      autoplay: true,
+      cssEase: 'linear' ,
+    
 };
 
-
-// const portifolio = () => {
   return (
     <div className={classes.portifolio}>
       <div className={classes.port}>
@@ -85,33 +46,56 @@ export default class portifolio extends Component {
 
         {/* Start of slider */}
         
-
-        <div className={classes.placeholder}>
-          {/* <Slider {...settings} className={classes.arrow}> */}
-
-            <div className={classes.ph}>
-                <img src={Placeholder} alt='placeholder' />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus vitae tortor sapien, lectus scelerisque porttitor. Dolor nulla bibendum</p>
-            </div>
-            <div className={classes.ph}>
-                <img src={Placeholder2} alt='placeholder' />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus vitae tortor sapien, lectus scelerisque porttitor. Dolor nulla bibendum</p>
-            </div>
-            <div className={classes.ph}>
-                <img src={Placeholder3} alt='placeholder' />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus vitae tortor sapien, lectus scelerisque porttitor. Dolor nulla bibendum</p>
-            </div>
-
-          {/* </Slider> */}
-        </div>
-            
-                <div className={classes.arrow}>
-                  <img src={Arrowleft} alt='arrowleft' />
-                  <img src={Arrowright} alt='arrowright' />
+          <Slider {...settings} className={classes.placeholder}>
+            <div className={classes.cards}>
+              <div className={classes.card}>
+                <div className={classes.ph}>
+                  <img src={Placeholder} alt='placeholder' />
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus vitae tortor sapien, lectus scelerisque porttitor. Dolor nulla bibendum</p>
                 </div>
+              </div>
+            </div>
+            
+              <div className={classes.cards}>
+                <div className={classes.card}>
+                  <div className={classes.ph}>
+                      <img src={Placeholder2} alt='placeholder' />
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus vitae tortor sapien, lectus scelerisque porttitor. Dolor nulla bibendum</p>
+                  </div>
+                </div>
+              </div>
+       
+              <div className={classes.cards}>
+                <div className={classes.card}>
+                  <div className={classes.ph}>
+                      <img src={Placeholder3} alt='placeholder' />
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus vitae tortor sapien, lectus scelerisque porttitor. Dolor nulla bibendum</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className={classes.cards}>
+                <div className={classes.card}>
+                  <div className={classes.ph}>
+                      <img src={Placeholder2} alt='placeholder' />
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus vitae tortor sapien, lectus scelerisque porttitor. Dolor nulla bibendum</p>
+                  </div>
+                </div>
+              </div>
+
+
+          </Slider>
+
+            {/* <div className={classes.arrow}>
+                    <img src={Arrowleft} alt='arrowleft' />
+                    <img src={Arrowright} alt='arrowright' />
+            </div> */}
+          <div className={classes.background}></div>
+            
+                
            
 
-            <div className={classes.background}></div>
+            
       </div>
 
       {/* end of slider */}

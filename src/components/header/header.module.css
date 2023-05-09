@@ -27,6 +27,16 @@
     cursor: pointer; 
 }
 
+.navLink:hover{
+    color: white;
+    border: solid 2px;
+    background: #60E1CB;
+    border-radius: 15px;
+    padding: 5px 15px;
+    border-color: #60E1CB;
+    
+}
+
 .navbar li button{
     background: #7BC0E3;
     border-radius: 1000px;
@@ -41,4 +51,12 @@
     color: #FFFFFF;
     margin-top: -1rem;
     cursor: pointer; 
+}
+
+.navbar li button:hover{
+    color: #7BC0E3;
+    background: #FFFFFF;
+    transform: scale(1.1);
+    border: solid 2px ;
+    /* border-color: #7BC0E3; */
 }

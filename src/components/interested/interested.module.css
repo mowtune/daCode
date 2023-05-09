@@ -1,7 +1,7 @@
 .interested{
     background-image:url(../../assets/bg_interested.png);
     text-align: center;
-    width: 1512.5px;
+    width: 1512px;
     height: 520px;
     position: absolute;
 }
@@ -41,5 +41,12 @@
     margin-top: 2rem;
     cursor: pointer; 
     border: none;
+
+}
+
+.btn button:hover{
+    color: #292525;
+    background: #FFFFFF;
+    transform: scale(1.2);
 
 }
